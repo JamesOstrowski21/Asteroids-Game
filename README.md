@@ -1,6 +1,6 @@
 # Asteroids
 
-Modified the base code, added a UFO across the screen on a timer for the user to shoot for bonus points. 
+Modified the base code, added a UFO across the screen on a timer for the user to shoot for bonus points. Used new sounds and images for the UFO. 
 
 Original code came from FamTrinli  
 https://www.youtube.com/watch?v=rWaSo2usU4A  
