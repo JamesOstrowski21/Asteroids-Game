@@ -1,5 +1,7 @@
 # Asteroids
 
+Modified the base code, added a UFO across the screen on a timer for the user to shoot for bonus points. 
+
 Original code came from FamTrinli  
 https://www.youtube.com/watch?v=rWaSo2usU4A  
 Published on Apr 29, 2016  
