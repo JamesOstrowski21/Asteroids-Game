@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Asteroids"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\images\;CMake Files\images\explosions\;CMake Files\Sounds\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Asteroids">
+				<Option output="H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Asteroids.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/SFML-2.5.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 Asteroids"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Asteroids/fast">
+				<Option output="H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Asteroids.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/SFML-2.5.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 Asteroids/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/engr2730fall2021/jostrowsk/homework/hw7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/main.cpp">
+			<Option target="Asteroids"/>
+		</Unit>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/images/background.jpg">
+			<Option virtualFolder="CMake Files\images\"/>
+		</Unit>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/images/fire_blue.png">
+			<Option virtualFolder="CMake Files\images\"/>
+		</Unit>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/images/fire_red.png">
+			<Option virtualFolder="CMake Files\images\"/>
+		</Unit>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/images/rock.png">
+			<Option virtualFolder="CMake Files\images\"/>
+		</Unit>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/images/rock_small.png">
+			<Option virtualFolder="CMake Files\images\"/>
+		</Unit>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/images/spaceship.png">
+			<Option virtualFolder="CMake Files\images\"/>
+		</Unit>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/images/ufo.png">
+			<Option virtualFolder="CMake Files\images\"/>
+		</Unit>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/images/explosions/type_B.png">
+			<Option virtualFolder="CMake Files\images\explosions\"/>
+		</Unit>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/images/explosions/type_C.png">
+			<Option virtualFolder="CMake Files\images\explosions\"/>
+		</Unit>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/Sounds/ufo.wav">
+			<Option virtualFolder="CMake Files\Sounds\"/>
+		</Unit>
+		<Unit filename="H:/engr2730fall2021/jostrowsk/homework/hw7/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
